@@ -16,6 +16,9 @@ This toolkit provides lightweight, modular PowerShell scripts for identifying an
 | ProtocolSecurity| Disables weak TLS/SSL protocols |
 | FirewallConfig| Secures Windows Firewall configuration |
 | BitLocker| Enables BitLocker disk encryption |
+| Guest-account| Enables/Disbales Guest account |
+| Wireshark_removal| Uninstall unwanted software |
+| Cypher_suite| Enables/Disables cypher |
 
 ## Quick Start
 
