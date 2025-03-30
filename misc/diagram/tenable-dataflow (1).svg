@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Zones with circular boundaries like original -->
+  <!-- Corporate Network Circle - Light Blue -->
+  <circle cx="600" cy="250" r="180" fill="#e6f2ff" stroke="#b3d7ff" stroke-width="2" />
+  <text x="600" y="400" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">CorpNet</text>
+  
+  <!-- Tenable Platform Circle - Light Yellow -->
+  <path d="M300 150 C400 150, 430 200, 430 300 C430 400, 400 450, 300 450 C200 450, 170 400, 170 300 C170 200, 200 150, 300 150" fill="#fffaeb" stroke="#ffe7a0" stroke-width="2" />
+  
+  <!-- Main Console Box - Beige -->
+  <rect x="220" y="280" width="160" height="120" rx="5" ry="5" fill="#fff4db" stroke="#6c757d" stroke-width="2" />
+  <text x="300" y="330" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Vulnerability</text>
+  <text x="300" y="355" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Management</text>
+  <text x="300" y="380" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Console (Main)</text>
+  
+  <!-- Components matching original layout -->
+  <!-- Vulnerability Cloud Scanner -->
+  <rect x="290" y="180" width="120" height="60" rx="5" ry="5" fill="#fff" stroke="#007bff" stroke-width="2" />
+  <text x="350" y="215" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Vuln Mgmt.</text>
+  <text x="350" y="235" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Scanner (cloud)</text>
+  
+  <!-- Nessus Scanner -->
+  <rect x="600" y="250" width="120" height="60" rx="5" ry="5" fill="#fff" stroke="#007bff" stroke-width="2" />
+  <text x="660" y="280" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Nessus Scanner</text>
+  <text x="660" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">(Azure VM)</text>
+  
+  <!-- Corporate Servers - Grouped as in original -->
+  <!-- Top Row -->
+  <g transform="translate(520, 170)">
+    <rect width="40" height="45" rx="2" ry="2" fill="#343a40" stroke="#212529" stroke-width="1" />
+    <line x1="5" y1="8" x2="35" y2="8" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="16" x2="35" y2="16" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="24" x2="35" y2="24" stroke="#adb5bd" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(570, 170)">
+    <rect width="40" height="45" rx="2" ry="2" fill="#343a40" stroke="#212529" stroke-width="1" />
+    <line x1="5" y1="8" x2="35" y2="8" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="16" x2="35" y2="16" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="24" x2="35" y2="24" stroke="#adb5bd" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(620, 170)">
+    <rect width="40" height="45" rx="2" ry="2" fill="#343a40" stroke="#212529" stroke-width="1" />
+    <line x1="5" y1="8" x2="35" y2="8" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="16" x2="35" y2="16" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="24" x2="35" y2="24" stroke="#adb5bd" stroke-width="1" />
+  </g>
+  
+  <!-- Bottom Row -->
+  <g transform="translate(520, 230)">
+    <rect width="40" height="45" rx="2" ry="2" fill="#343a40" stroke="#212529" stroke-width="1" />
+    <line x1="5" y1="8" x2="35" y2="8" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="16" x2="35" y2="16" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="24" x2="35" y2="24" stroke="#adb5bd" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(570, 230)">
+    <rect width="40" height="45" rx="2" ry="2" fill="#343a40" stroke="#212529" stroke-width="1" />
+    <line x1="5" y1="8" x2="35" y2="8" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="16" x2="35" y2="16" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="24" x2="35" y2="24" stroke="#adb5bd" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(620, 230)">
+    <rect width="40" height="45" rx="2" ry="2" fill="#343a40" stroke="#212529" stroke-width="1" />
+    <line x1="5" y1="8" x2="35" y2="8" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="16" x2="35" y2="16" stroke="#adb5bd" stroke-width="1" />
+    <line x1="5" y1="24" x2="35" y2="24" stroke="#adb5bd" stroke-width="1" />
+  </g>
+  
+  <!-- Admin User -->
+  <g transform="translate(680, 400)">
+    <!-- Head -->
+    <circle cx="20" cy="15" r="15" fill="#212529" />
+    <!-- Body -->
+    <path d="M5 35 L35 35 L30 65 L10 65 Z" fill="#212529" />
+    <!-- Collar -->
+    <path d="M15 35 L25 35 L20 45 Z" fill="white" />
+  </g>
+  <text x="700" y="480" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Vulnerability</text>
+  <text x="700" y="500" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Management Admin</text>
+  
+  <!-- Tenable Logo -->
+  <g transform="translate(80, 100)">
+    <path d="M35,0 L45,17 L25,17 Z" fill="#14294e" transform="rotate(0, 35, 8.5)" />
+    <path d="M35,0 L45,17 L25,17 Z" fill="#14294e" transform="rotate(60, 35, 8.5)" />
+    <path d="M35,0 L45,17 L25,17 Z" fill="#14294e" transform="rotate(120, 35, 8.5)" />
+    <path d="M35,0 L45,17 L25,17 Z" fill="#14294e" transform="rotate(180, 35, 8.5)" />
+    <path d="M35,0 L45,17 L25,17 Z" fill="#14294e" transform="rotate(240, 35, 8.5)" />
+    <path d="M35,0 L45,17 L25,17 Z" fill="#14294e" transform="rotate(300, 35, 8.5)" />
+    <text x="100" y="25" font-family="Arial" font-weight="bold" font-size="36" fill="#14294e">tenable</text>
+    <text x="235" y="20" font-family="Arial" font-size="12" fill="#14294e">®</text>
+  </g>
+  
+  <!-- Data Flows with Animation -->
+  
+  <!-- Scan Engines Scanning Devices (Blue) -->
+  <!-- Cloud Scanner to Servers -->
+  <path class="scan-flow" d="M410 210 Q 470 190, 520 200" stroke="#4285f4" stroke-width="3" fill="none" marker-end="url(#arrowBlue)">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Nessus Scanner to Servers -->
+  <path class="scan-flow" d="M630 250 Q 650 230, 650 210" stroke="#4285f4" stroke-width="3" fill="none" marker-end="url(#arrowBlue)">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="2.5s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Scan Data to Console (Green) -->
+  <!-- Cloud Scanner to Console -->
+  <path class="data-flow" d="M350 240 Q 340 260, 330 280" stroke="#34a853" stroke-width="3" fill="none" marker-end="url(#arrowGreen)">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="2s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Nessus Scanner to Console -->
+  <path class="data-flow" d="M600 280 Q 450 320, 380 330" stroke="#34a853" stroke-width="3" fill="none" marker-end="url(#arrowGreen)">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="4s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Admin Access (Dashed) -->
+  <path class="admin-flow" d="M680 415 Q 550 430, 380 370" stroke="#212529" stroke-width="2.5" stroke-dasharray="7,3" fill="none" marker-end="url(#arrowBlack)">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="5s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Markers for arrows -->
+  <defs>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4285f4"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#34a853"/>
+    </marker>
+    <marker id="arrowBlack" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#212529"/>
+    </marker>
+  </defs>
+  
+  <!-- Styles for Animated Flows -->
+  <style>
+    .scan-flow {
+      stroke-dasharray: 10;
+    }
+    .data-flow {
+      stroke-dasharray: 10;
+    }
+    .admin-flow {
+      stroke-dasharray: 7,3;
+    }
+  </style>
+  
+  <!-- Legend - Matching Original Style -->
+  <g transform="translate(60, 510)">
+    <line x1="0" y1="0" x2="35" y2="0" stroke="#4285f4" stroke-width="3" />
+    <text x="40" y="5" font-family="Arial" font-size="14" fill="#333">Scan engines scanning devices</text>
+  </g>
+  
+  <g transform="translate(60, 540)">
+    <line x1="0" y1="0" x2="35" y2="0" stroke="#34a853" stroke-width="3" />
+    <text x="40" y="5" font-family="Arial" font-size="14" fill="#333">Scan engines sending scan data to console</text>
+  </g>
+  
+  <g transform="translate(60, 570)">
+    <line x1="0" y1="0" x2="35" y2="0" stroke="#212529" stroke-width="2.5" stroke-dasharray="7,3" />
+    <text x="40" y="5" font-family="Arial" font-size="14" fill="#333">Admin management access</text>
+  </g>
+</svg>
